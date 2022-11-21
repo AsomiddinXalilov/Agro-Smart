@@ -1,1 +1,1 @@
-# <Agro Smart >
+Agro Smart
