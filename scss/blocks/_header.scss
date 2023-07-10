@@ -4,10 +4,14 @@
     &__container {
         max-width: 1250px;
         margin: 0 auto;
-        padding: 13px 15px 12px 15px;
-        display: flex;
-        justify-content: space-between;
+        padding: 0px 15px 0px 15px;
         align-items: center;
+    }
+
+    &__box {
+        display: flex;
+        padding: 13px 0px 12px 0px;
+        justify-content: space-between;
     }
 
     &__list {
@@ -28,7 +32,7 @@
         transition: all 0.3s ease-in-out;
 
         &:hover {
-            border-bottom: 1px solid #333333;  
+            border-bottom: 1px solid #333333;
         }
     }
 
@@ -52,6 +56,10 @@
 
     &__menu {
         display: none;
+    }
+
+    &__bottom {
+        background-image: url("./../../img/bg-sakinat.png");
     }
 }
 

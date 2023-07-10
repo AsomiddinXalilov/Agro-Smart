@@ -384,16 +384,20 @@ img {
 .header__container {
   max-width: 1250px;
   margin: 0 auto;
-  padding: 13px 15px 12px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding: 0px 15px 0px 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px 0px 12px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__list {
@@ -446,6 +450,10 @@ img {
 
 .header__menu {
   display: none;
+}
+
+.header__bottom {
+  background-image: url("./../../img/bg-sakinat.png");
 }
 
 @media only screen and (max-width: 510px) {
